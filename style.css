@@ -1,0 +1,353 @@
+/* Importa fontes que serão usadas na página */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+body {
+  height: 100%; /* Faz o site ocupar toda a altura da página */
+  width: 100%; /* Faz o site ocupar toda a largura da página */
+  margin: 0; /* Remove a margem padrão */
+  background-color: #000000;
+}
+
+
+
+
+#cabecalho {
+  background-color: #000000; /*Define uma cor de fundo para o cabeçalho */
+  overflow: hidden; /*Esconde o que não couber na tela */
+  text-align: center; /* Alinha o texto do cabeçalho ao centro */
+  overflow-x: auto;
+  white-space: nowrap;
+  border: solid 5px #000000; /* Cria uma borda quadrada no cabeçalho */
+}
+
+
+
+
+nav ul {
+  overflow: scroll; /* Cria uma lista de rolagem entre os elementos li */
+  background-color: #000000; /* Define uma cor de fundo para essa lista de rolagem */
+  margin: 0; /* Define uma margem para essa lista de rolagem */
+  padding: 0; /* Espaçamento interno entre os elementos li */
+  list-style: none; /* Remove os tópicos dos elementos li */
+  display: flex; /* Aplica flexbox a essa lista de rolagem */
+  
+}
+
+nav ul a {
+  font-family: "Bebas Neue", serif; /* Define a fonte para os elementos da barra de rolagem */
+  float: left; /* Flutua os elementos para a esquerda */
+  color: #ffffff; /* Define a cor para os elementos da barra de rolagem */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 20px; /* Espaçamento interno para os links na barra de rolagem */
+  text-decoration: none; /* Remove o sublinhado padrão dos links*/
+  font-size: 25px; /* Tamanho dos links */
+  line-height: 20px; /* Altura da linha */
+  border: solid 5px #000; /* Cria uma borda quadrada */
+  margin: 0 10px; /* Define uma margem */
+}
+
+nav ul a:hover {
+  background-color: #ddd; /* Cor de fundo caso o mouse passe pelo link */
+  color: black; /* cor do texto caso o mouse passe pelo link */
+}
+
+
+#bemvindo {
+  font-family: "Prompt", serif; /* Define a fonte deste parágrafo */
+  font-size: 20px; /* Define o tamanho do texto desse parágrafo */
+  letter-spacing: 0.1rem; /* Espaçamento entre linhas desse parágrafo */
+  color: #ffffff;
+}
+
+.imagem {
+  width: 100%;
+  height: 100%;
+}
+
+#apresentacao {
+  align-items: center;
+  animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+/* Dropdown Button */
+.dropbtn {
+
+  background-color: transparent;
+  color: #f1f1f1;
+  padding: 16px;
+  font-family: "Be Vietnam Pro", serif;
+  font-style: italic;
+  font-size: 22px;
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropbtn::after {
+  content: " ";
+  width: 0%;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.8s ease;
+}
+
+.dropbtn:hover::after {
+  width: 100%;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #000000;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: grid;
+  place-items: center;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #000000;
+  font-family: "Sriracha", serif;
+  font-size: 21px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #000; 
+font-size: 24px;
+color: #ffffff; }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#site-descricao {
+  box-shadow: rgba(0,0,0,0.6);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+h2 {
+  color: #f1f1f1;
+  font-family: "Merienda", serif;
+  font-size: 36px;
+}
+
+#topico-descricao {
+  color: #ffffff;
+  font-family: "Protest Revolution", serif;
+  font-size: 45px;
+}
+
+#descricao {
+  color: #f1f1f1;
+  font-family: "Sour Gummy", serif;
+  font-size: 28px;
+}
+
+#rodape {
+  background-color: #000000; /* Define a cor de fundo do rodapé */
+  padding: 10px; /* Cria um espaçamento no rodapé */
+  display: flex; /* Aciona flexbox ao rodapé */
+  justify-content: space-between; /* Deixa um espaço entre os itens */
+  align-items: left; /* Alinha os elementos à esquerda */
+  border: 1px solid #fff; /* Cria uma borda em volta do rodapé */
+}
+
+.texto-rodape {
+  font-family: "Didact Gothic", serif; /* Define a fonte ao copyright no rodapé do site */
+  font-style: italic; /* Deixa o texto em itálico */
+  color: #f1f1f1; /* Define a cor do texto */
+  font-size: 15px; /* Define o tamanho da fonte do texto */
+  margin: 0; /* Adiciona uma margem ao texto */
+}
+
+.contato {
+  font-family: "Zilla Slab", serif; /* Define a fonte do parágrafo contato */
+  font-style: italic; /* Deixa o texto em itálico */
+  font-size: 20px; /* Define o tamanho da fonte do parágrafo contato */
+  color: #f1f1f1; /* Define a cor do texto do parágrafo contato */
+}
+
+#rodape a {
+  text-decoration: none;
+  font-family: "Zilla Slab", serif;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.instagram {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+  img {
+    width: 60%;
+  }
+}
+
+
+/* Responsividade em PCs */
+@media (min-width: 1024px) {
+  
+  .imagem {
+    width: 55%;
+    height: 55%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #bemvindo {
+    font-size: 40px;
+  }
+  
+  .dropbtn {
+    font-size: 32px;
+    width: 470px;
+    height: 120px;
+  }
+  
+  h2 {
+    font-size: 46px;
+  }
+  
+  #topico-descricao {
+    font-size: 52px;
+  }
+  
+  img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #descricao {
+    font-size: 35px;
+  }
+
+  nav ul a {
+    padding: 40px;
+    font-size: 43px;
+}
+
+  #rodape {
+    padding: 15px;
+  }
+  
+  .texto-rodape {
+    font-size: 30px;
+  }
+  
+  .contato {
+    font-size: 30px;
+  }
+  
+  #rodape a {
+    font-size: 30px;
+  }
+  
+  .instagram {
+    width: 90px;
+    height: 90px;
+  }
+
+
+  
+
+
+}
+
+
+
+/* Responsividade em Tela deitada */
+@media(orientation: landscape) {
+  .imagem {
+    width: 55%;
+    height: 55%;
+    
+  }
+    img {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto-rodape {
+    font-size: 20px;
+  }
+  
+  #rodape a {
+    font-size: 25px;
+  }
+  
+  .instagram {
+    width: 75px;
+    height: 75px;
+  }
+}

@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+  height: 100%; /* Faz o site ocupar toda a altura da página */
+  width: 100%; /* Faz o site ocupar toda a largura da página */
+  margin: 0 auto; /* Remove a margem padrão */
+  background-color: #000000; /*Define a cor de fundo do site */
+}
+
+#cabecalho {
+  background-color: #000000; /*Define uma cor de fundo para o cabeçalho */
+  overflow: hidden; /*Esconde o que não couber na tela */
+  text-align: center; /* Alinha o texto do cabeçalho ao centro */
+  overflow-x: auto;
+  white-space: nowrap;
+  border: solid 5px #000000; /* Cria uma borda quadrada no cabeçalho */
+}
+
+
+
+
+nav ul {
+  overflow: scroll; /* Cria uma lista de rolagem entre os elementos li */
+  background-color: #000000; /* Define uma cor de fundo para essa lista de rolagem */
+  margin: 0; /* Define uma margem para essa lista de rolagem */
+  padding: 0; /* Espaçamento interno entre os elementos li */
+  list-style: none; /* Remove os tópicos dos elementos li */
+  display: flex; /* Aplica flexbox a essa lista de rolagem */
+  
+}
+
+nav ul a {
+  font-family: "Bebas Neue", serif; /* Define a fonte para os elementos da barra de rolagem */
+  float: left; /* Flutua os elementos para a esquerda */
+  color: #ffffff; /* Define a cor para os elementos da barra de rolagem */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 20px; /* Espaçamento interno para os links na barra de rolagem */
+  text-decoration: none; /* Remove o sublinhado padrão dos links*/
+  font-size: 25px; /* Tamanho dos links */
+  line-height: 20px; /* Altura da linha */
+  border: solid 5px #000; /* Cria uma borda quadrada */
+  margin: 0 10px; /* Define uma margem */
+}
+
+nav ul a:hover {
+  background-color: #ddd; /* Cor de fundo caso o mouse passe pelo link */
+  color: black; /* cor do texto caso o mouse passe pelo link */
+}
+
+button {
+  background-color: #17BD5F;
+  padding: 12px;
+  display: block;
+  margin: 0 auto;
+  font-size: 25px;
+  border-radius: 30px;
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+h1 {
+  font-family: "Outfit", serif;
+  font-size: 45px;
+  color: white;
+}
+
+.imagem-banda {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.info-basica {
+  font-family: "Asap", serif;
+  color: white;
+  font-size: 22px;
+}
+
+.topico {
+  padding: 10px;
+}
+
+.top5 {
+  font-family: "Urbanist", serif;
+  color: white;
+  padding: 30px;
+  margin: 3;
+  position: relative;
+}
+
+.top5 h2 {
+  font-size: 30px;
+}
+.top5musica {
+  list-style: none;
+  font-size: 25px;
+  padding: 20px;
+  border: solid 5px #000;
+}
+
+.musica-album {
+  list-style: none;
+  font-family: "Ysabeu SC", serif;
+  font-size: 15px;
+  color: #78788B;
+}
+
+.albuns {
+  font-family: "Oxygen", serif;
+  color: white;
+}
+
+.albuns h2 {
+  font-size: 30px;
+}
+
+.album {
+  list-style: none;
+  font-size: 25px;
+  padding: 30px;
+}
+
+#rodape {
+  background-color: #000000; /* Define a cor de fundo do rodapé */
+  padding: 10px; /* Cria um espaçamento no rodapé */
+  display: flex; /* Aciona flexbox ao rodapé */
+  justify-content: space-between; /* Deixa um espaço entre os itens */
+  align-items: left; /* Alinha os elementos à esquerda */
+  border: 1px solid #ffffff; /* Cria uma borda em volta do rodapé */
+}
+
+.texto-rodape {
+  font-family: "Didact Gothic", serif; /* Define a fonte ao copyright no rodapé do site */
+  font-style: italic; /* Deixa o texto em itálico */
+  color: #f1f1f1; /* Define a cor do texto */
+  font-size: 15px; /* Define o tamanho da fonte do texto */
+  margin: 0; /* Adiciona uma margem ao texto */
+}
+
+.contato {
+  font-family: "Zilla Slab", serif; /* Define a fonte do parágrafo contato */
+  font-style: italic; /* Deixa o texto em itálico */
+  font-size: 20px; /* Define o tamanho da fonte do parágrafo contato */
+  color: #f1f1f1; /* Define a cor do texto do parágrafo contato */
+}
+
+#rodape a {
+  text-decoration: none;
+  font-family: "Zilla Slab", serif;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.instagram {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+

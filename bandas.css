@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+
+
+
+body {
+  height: 100%; /* Faz o site ocupar toda a altura da página */
+  width: 100%; /* Faz o site ocupar toda a largura da página */
+  margin: 0 auto; /* Remove a margem padrão */
+  background-color: #000000; /*Define a cor de fundo do site */
+}
+
+
+
+#cabecalho {
+  background-color: #000000; /*Define uma cor de fundo para o cabeçalho */
+  overflow: hidden; /*Esconde o que não couber na tela */
+  text-align: center; /* Alinha o texto do cabeçalho ao centro */
+  overflow-x: auto;
+  white-space: nowrap;
+  border: solid 5px #000000; /* Cria uma borda quadrada no cabeçalho */
+}
+
+
+
+
+nav ul {
+  overflow: scroll; /* Cria uma lista de rolagem entre os elementos li */
+  background-color: #000000; /* Define uma cor de fundo para essa lista de rolagem */
+  margin: 0; /* Define uma margem para essa lista de rolagem */
+  padding: 0; /* Espaçamento interno entre os elementos li */
+  list-style: none; /* Remove os tópicos dos elementos li */
+  display: flex; /* Aplica flexbox a essa lista de rolagem */
+  
+}
+
+nav ul a {
+  font-family: "Bebas Neue", serif; /* Define a fonte para os elementos da barra de rolagem */
+  float: left; /* Flutua os elementos para a esquerda */
+  color: #ffffff; /* Define a cor para os elementos da barra de rolagem */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 20px; /* Espaçamento interno para os links na barra de rolagem */
+  text-decoration: none; /* Remove o sublinhado padrão dos links*/
+  font-size: 25px; /* Tamanho dos links */
+  line-height: 20px; /* Altura da linha */
+  border: solid 5px #000; /* Cria uma borda */
+  margin: 0 10px; /* Define uma margem */
+}
+
+nav ul a:hover {
+  background-color: #ddd; /* Cor de fundo caso o mouse passe pelo link */
+  color: black; /* cor do texto caso o mouse passe pelo link */
+} 
+
+.imagem {
+  width: 100%;
+  height: 100%;
+}
+
+#informacao {
+  font-family: "Prompt", serif;
+  letter-spacing: 0.1rem;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#barra-pesquisa {
+  align-items: center;
+  animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+
+input[type="search"] {
+  all: unset;
+  width: 340px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Red Hat Display", serif;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+ #banda {
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+
+ #banda h2 {
+  font-family: "Geologica", serif;
+  font-size: 47px;
+  color: #000000;
+}
+
+#descricoes-bandas {
+  font-family: "Afacad Flux", serif;
+  color: #000000;
+  font-size: 25px;
+}
+
+#banda a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Afacad Flux", serif;
+  color: black;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  background-color: #97A1C9;
+}
+
+li {
+  list-style: none;
+  font-family: "Afacad Flux", serif;
+  font-size: 22px;
+  color: black;
+}
+
+#rodape {
+  background-color: #000000; /* Define a cor de fundo do rodapé */
+  padding: 10px; /* Cria um espaçamento no rodapé */
+  display: flex; /* Aciona flexbox ao rodapé */
+  justify-content: space-between; /* Deixa um espaço entre os itens */
+  align-items: left; /* Alinha os elementos à esquerda */
+  border: 1px solid #ffffff; /* Cria uma borda em volta do rodapé */
+}
+
+.texto-rodape {
+  font-family: "Didact Gothic", serif; /* Define a fonte ao copyright no rodapé do site */
+  font-style: italic; /* Deixa o texto em itálico */
+  color: #f1f1f1; /* Define a cor do texto */
+  font-size: 15px; /* Define o tamanho da fonte do texto */
+  margin: 0; /* Adiciona uma margem ao texto */
+}
+
+.contato {
+  font-family: "Zilla Slab", serif; /* Define a fonte do parágrafo contato */
+  font-style: italic; /* Deixa o texto em itálico */
+  font-size: 20px; /* Define o tamanho da fonte do parágrafo contato */
+  color: #f1f1f1; /* Define a cor do texto do parágrafo contato */
+}
+
+#rodape a {
+  text-decoration: none;
+  font-family: "Zilla Slab", serif;
+  color: #f1f1f1;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.instagram {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (min-width: 1024px) {
+  
+
+  input[type="search"] {
+    width: 700px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  #informacao {
+    font-size: 35px;
+
+  }
+  
+  nav ul a {
+    padding: 60px;
+    font-size: 52px;
+  }
+
+    .imagem {
+    width: 55%;
+    height: 55%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+
+
+
+  #banda {
+    width: 80%;
+  }
+
+  #banda h2 {
+    font-size: 65px;
+  }
+
+  #descricoes-bandas {
+    font-size: 30px;
+  }
+
+  #banda a {
+    font-size: 30px;
+  }
+
+  button {
+    width: 300px;
+    height: 80px;
+    font-size: 18px; 
+  }
+
+  #rodape {
+    padding: 15px;
+  }
+  
+  .texto-rodape {
+    font-size: 30px;
+  }
+  
+  .contato {
+    font-size: 30px;
+  }
+  
+  #rodape a {
+    font-size: 30px;
+  }
+  
+  .instagram {
+    width: 90px;
+    height: 90px;
+  }
+
+ 
+
+
+  
+  }
+
+/* Responsividade em Tela deitada */
+@media(orientation: landscape) {
+  .imagem {
+    width: 55%;
+    height: 55%;
+    
+  }
+  
+  #rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto-rodape {
+    font-size: 20px;
+  }
+  
+  #rodape a {
+    font-size: 25px;
+  }
+  
+  .instagram {
+    width: 75px;
+    height: 75px;
+  }
+}

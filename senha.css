@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&display=swap');
+
+
+
+body {
+  background-color: #000000;
+}
+
+.welcome {
+  color: #ffffff;
+  font-family: "Alkatra", serif;
+  font-size: 15px;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+label {
+  display: block;
+  margin-bottom: 05px;
+  font-size: 23px;
+  font-family: "Kulim Park", serif;
+  font-weight: bold;
+  font-style: italic;
+}
+input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 50px 100px 70px 50px;
+  font-family: "Marko One", serif;
+  font-size: 16px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 80px 100px 80px 100px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Aubrey", serif;
+  background-color: #ffffff;
+}
+
+
+button:hover {
+  background-color: #0B22A1;
+  color: #ffffff;
+}
